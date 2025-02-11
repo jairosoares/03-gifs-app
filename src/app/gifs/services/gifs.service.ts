@@ -58,7 +58,7 @@ export class GifsService {
   }
 
   private loadLocalStorage(): void {
-    
+
     if (!localStorage.getItem(ITEM_HISTORY)) return;
 
     this._tagsHistory = JSON.parse( localStorage.getItem(ITEM_HISTORY)! );
