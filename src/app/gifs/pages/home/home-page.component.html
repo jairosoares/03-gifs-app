@@ -1,0 +1,15 @@
+<div class="row p-3">
+
+  <!-- Como o Bootstrap usa uma grade de 12 colunas,
+    col-12 significa que essa coluna ocupará toda a largura disponível
+    (ou seja, 100% da largura da linha).-->
+  <div class="col-12">
+    <!-- busca-->
+    <gifs-search-box></gifs-search-box>
+  </div>
+
+  <div class="col-12 pt-2">
+    <gifs-card-list [gifs]="gifs"></gifs-card-list>
+  </div>
+
+</div>
